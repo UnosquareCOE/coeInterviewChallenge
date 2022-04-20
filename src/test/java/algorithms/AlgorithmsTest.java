@@ -15,7 +15,7 @@ public class AlgorithmsTest {
 //  @Test
 //  public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
 //    final List<Integer> integerList = List.of(1, 3, 5, 3, 2, 9);
-//    assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(4);
+//    assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(5);
 //  }
 
 //  @Test
