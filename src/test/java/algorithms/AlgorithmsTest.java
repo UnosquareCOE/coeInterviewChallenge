@@ -8,9 +8,10 @@ import org.junit.Test;
 
 public class AlgorithmsTest {
 
-  // README:
-  // Uncomment the method below that is appropriate to the implementation that was chosen in the
- //  Algorithms class
+	// README:
+	// Uncomment the method below that is appropriate to the implementation that was
+	// chosen in the
+	// Algorithms class
 
 //  @Test
 //  public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
@@ -24,10 +25,10 @@ public class AlgorithmsTest {
 //    assertThat(Algorithms.calculateSumOfEvenNumbersInCollection(integerList)).isEqualTo(8);
 //  }
 
-//  @Test
-//  public void reverseString_returns_expected_result() {
-//    final String stringToReverse = "A String to Reverse";
-//    assertThat(Algorithms.reverseString(stringToReverse)).isEqualTo("esreveR ot gnirtS A");
-//  }
+	@Test
+	public void reverseString_returns_expected_result() {
+		final String stringToReverse = "A String to Reverse";
+		assertThat(Algorithms.reverseString(stringToReverse)).isEqualTo("esreveR ot gnirtS A");
+	}
 
 }
