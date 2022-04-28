@@ -1,10 +1,16 @@
 package algorithms;
 
-import static org.assertj.core.api.Assertions.assertThat;
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.is;
+//import static org.hamcrest.Matchers.not
+//import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.List;
-import org.assertj.core.util.Lists;
+//import org.assertj.core.util.Lists;
 import org.junit.Test;
+
+import org.junit.Assert;
 
 public class AlgorithmsTest {
 
@@ -12,16 +18,16 @@ public class AlgorithmsTest {
   // Uncomment the method below that is appropriate to the implementation that was chosen in the
  //  Algorithms class
 
-//  @Test
-//  public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
-//    final List<Integer> integerList = List.of(1, 3, 5, 3, 2, 9);
-//    assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(5);
-//  }
+  @Test
+  public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
+    final List<Integer> integerList = List.of(1, 3, 5, 3, 2, 9);
+    assertThat(Algorithms.countOddNumbersInCollection(integerList), is(equalTo(5)));
+  }
 
 //  @Test
 //  public void calculateSumOfEvenNumbersInCollection_returns_expected_result() {
 //    final List<Integer> integerList = List.of(2, 9, 11, 1, 5, 6);
-//    assertThat(Algorithms.calculateSumOfEvenNumbersInCollection(integerList)).isEqualTo(8);
+//    assertEquals(Algorithms.calculateSumOfEvenNumbersInCollection(integerList), 8);
 //  }
 
 //  @Test
