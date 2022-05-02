@@ -1,6 +1,6 @@
 package shapes;
 
-import static org.hamcrest.CoreMatchers.is;
+//import static org.hamcrest.CoreMatchers.is;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.Before;
