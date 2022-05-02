@@ -12,11 +12,11 @@ public class AlgorithmsTest {
   // Uncomment the method below that is appropriate to the implementation that was chosen in the
  //  Algorithms class
 
-//  @Test
-//  public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
-//    final List<Integer> integerList = List.of(1, 3, 5, 3, 2, 9);
-//    assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(5);
-//  }
+ @Test
+ public void calculateCountOfOddNumbersInCollection_returns_expected_result() {
+   final List<Integer> integerList = List.of(1, 3, 5, 3, 2, 9);
+   assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(5);
+ }
 
 //  @Test
 //  public void calculateSumOfEvenNumbersInCollection_returns_expected_result() {
