@@ -2,8 +2,6 @@ package algorithms;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import java.util.List;
-import org.assertj.core.util.Lists;
 import org.junit.Test;
 
 public class AlgorithmsTest {
@@ -24,10 +22,10 @@ public class AlgorithmsTest {
 //    assertThat(Algorithms.calculateSumOfEvenNumbersInCollection(integerList)).isEqualTo(8);
 //  }
 
-//  @Test
-//  public void reverseString_returns_expected_result() {
-//    final String stringToReverse = "A String to Reverse";
-//    assertThat(Algorithms.reverseString(stringToReverse)).isEqualTo("esreveR ot gnirtS A");
-//  }
+  @Test
+  public void reverseString_returns_expected_result() {
+    final String stringToReverse = "A String to Reverse";
+    assertThat(Algorithms.reverseString(stringToReverse)).isEqualTo("esreveR ot gnirtS A");
+  }
 
 }
