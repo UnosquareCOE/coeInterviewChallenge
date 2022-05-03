@@ -18,11 +18,11 @@ public class AlgorithmsTest {
 //    assertThat(Algorithms.countOddNumbersInCollection(integerList)).isEqualTo(5);
 //  }
 
-//  @Test
-//  public void calculateSumOfEvenNumbersInCollection_returns_expected_result() {
-//    final List<Integer> integerList = List.of(2, 9, 11, 1, 5, 6);
-//    assertThat(Algorithms.calculateSumOfEvenNumbersInCollection(integerList)).isEqualTo(8);
-//  }
+      @Test
+      public void calculateSumOfEvenNumbersInCollection_returns_expected_result() {
+        final List<Integer> integerList = List.of(2, 9, 11, 1, 5, 6);
+        assertThat(Algorithms.calculateSumOfEvenNumbersInCollection(integerList)).isEqualTo(8);
+      }
 
 //  @Test
 //  public void reverseString_returns_expected_result() {
